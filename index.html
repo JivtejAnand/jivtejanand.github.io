@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Primary Meta Tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+
+  <!-- Link -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+  <header id="hero">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <!-- Logo -->
+        <h1 id="logo">
+          <a href="./index.html"><img src="./assets/logo.png" alt="MY Logo"></a>
+        </h1>
+        <!-- Navbar links -->
+        <ul class="nav-menu">
+          <li><a class="nav-link" href="#">HOME</a></li>
+          <li><a class="nav-link" href="#services">SERVICES</a></li>
+          <li><a class="nav-link" href="#projects">PROJECTS</a></li>
+          <li>
+            <a class="nav-link btn btn-primary" href="./assets/Interaction Designer_JivtejAnand.pdf"
+              target="_blank">RESUME<i class="fas fa-arrow-right"></i></a>
+          </li>
+          <!-- Toggle switch -->
+          <div class="theme-switch">
+            <input type="checkbox" id="switch">
+            <label class="toggle-icons" for="switch">
+              <img class="moon" src="assets/moon.svg" alt="moon icon">
+              <img class="sun" src="assets/sun.svg" alt="sun icon">
+            </label>
+          </div>
+          <!-- Hamburger menu -->
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <section class="header-container">
+      <img class="profile-image" src="./assets/profilepic.png" alt="profilepic">
+      <h1>Hi I'm Jivtej Anand</h1>
+
+      <div class="content-text">
+        <h2>Bring your Ideas to life and
+          your <br> Products to the market.</h2>
+
+        <p>
+          I collaborate with companies to create unique
+          products and empowering experiences.
+        </p>
+      </div>
+      <div>
+        <a href="mailto:jivtejanand@gmail.com" class="btn btn-secondary">Connect With Me</a>
+      </div>
+    </section>
+  </header>
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h2>My Services</h2>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <i class="fas fa-bars"></i>
+          <h2>Web Design</h2>
+          <p>This is the most recent skill that ive picked up. Combined with my knowledge of interaction design,
+            i can provide you with a unique and practical solutions. </p>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-user"></i>
+          <h2>UI/UX Design</h2>
+          <p>User experience design is something that i'm deeply passionate about. Combined with my knowledge of
+            industrial design,
+            i can provide you a practical solution that increases your profit margins.</p>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-bell"></i>
+          <h2>Product Design</h2>
+          <p>It all began with product design combined with my knowledge of web developmen and ui/ux design i can work
+            on
+            tangible as well as no-tangible products, providing you with a stop all solution. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects -->
+  <section id="projects" class="project-container container">
+
+    <div class="content-text">
+      <h2>Projects</h2>
+      <p>Check out some of my personal projects</p>
+    </div>
+
+    <article class="project">
+      <!-- Project 1 -->
+      <div class="card">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Amplichain QPCR</h3>
+            <p>UX/UI Design, Wireframing, Figma</p>
+          </div>
+
+          <div>
+
+            <a href="./project1.html"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="card">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>LearnVectors</h3>
+            <p>Mobile App Design, UX Design, Figma</p>
+          </div>
+
+          <div>
+
+            <a href="./project2.html"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Porject 3 -->
+      <div class="card">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Glucometer</h3>
+            <p>Product Design, Research, Fusion360</p>
+          </div>
+
+          <div>
+
+            <a href="./project3.html"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <a href="https://www.behance.net/Jivtej" class="btn btn-secondary" target="_blank">Behance Portfolio <i
+        class="fas fa-arrow-right"></i></a>
+  </section>
+
+  <footer id="footer">
+    <div class="container">
+      <a href="mailto:jivtejanand@gmail.com" target="_blank">jivtejanand@gmail.com</a>
+      <!-- Social links -->
+      <div class="social">
+
+        <a href="https://www.linkedin.com/in/jivtej-anand-38016b197/" target="_blank"><img
+            src="./assets/linkedin-icon.svg" alt="Linkedin"></a>
+        <a href="https://github.com/JivtejAnand" target="_blank"><img src="./assets/github-icon.svg" alt="GitHub"></a>
+
+      </div>
+
+      <p>Copyright &copy; JivtejAnand <span id="datee"></span>, All rights reserved</p>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

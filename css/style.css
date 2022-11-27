@@ -551,7 +551,7 @@ h2::selection {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: #191919;
+	background-color: #000000;
 	opacity: 0.9;
 	z-index: -1;
 
@@ -589,58 +589,4 @@ h2::selection {
   text-align: center;
 }
 
-/* End Services Section */
-/*
-#Service{
-  background: #101010;
-  width:100%;
-  padding:10px 0px;
-}
 
-.title2 h2{
-  color:white;
-  font-size: 3rem;
-  line-height: 1.2;
-  margin:30px auto;
-  text-align: center;
-}
-
-.box{
-  display:grid;
-  grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
-  grid-gap: 0.5rem;
-  margin-top: 20px;
-}
-
-.card2{
-  height: 365px;
-  width: 335px;
-  padding:20px ;
-  background: #191919;
-  border-radius: 20px;
-  margin: 15px;
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-  box-shadow: 0px 10px 20px 1px rgba(236, 236, 236, 0.1);
-
-}
-
-
-
-h5{
-color: white;
-font-size: 1.3rem;
-line-height: 1.2;
-margin-bottom: 15px;
-
-}
-
-.pra{
-  color: rgb(224, 249, 255);
-  padding: .5rem;
-  margin: 0 auto;
-  max-width: 700px;
-
-}
-*/
